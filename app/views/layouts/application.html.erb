@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Up Programs</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <link href='http://fonts.googleapis.com/css?family=Stoke:300' rel='stylesheet' type='text/css'></link>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <ul id="nav">
+   <a href="home.html"> <div id="name">Live Up Programs</div></a>
+   <a href="about.html"> <li>About Us</li></a>
+   <a href="donate.html"><li>Donate</li></a>
+   <a href="programs.html"><li>Programs</li></a>
+   <a href="mentors.html"><li>Mentors</li></a>
+   <a href="participants.html"><li>Participants</li></a>
+   <a href="partners"><li>Partners</li></a>
+
+  </ul>
+<%= yield %>
+</body>
+</html>

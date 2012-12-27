@@ -50,7 +50,7 @@
 }
 
 #nav a:hover{
-    float: right;
+    float: left;
     color: grey;
     margin-left: 32px;
     margin-right: 28px;

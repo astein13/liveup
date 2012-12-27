@@ -28,7 +28,7 @@
 }
 
 #nav li{
-    float: left;
+    float: right;
     color: white;
     margin-left: 32px;
     margin-right: 28px;
@@ -40,7 +40,7 @@
 }
 
 #nav a{
-    float: left;
+    float: right;
     color: white;
     margin-left: 32px;
     margin-right: 28px;
@@ -50,7 +50,7 @@
 }
 
 #nav a:hover{
-    float: left;
+    float: right;
     color: grey;
     margin-left: 32px;
     margin-right: 28px;
@@ -62,7 +62,7 @@
 
 
 #name{
-    float: left;
+    float: right;
     color: white;
     font-family: 'Stoke', serif;
     font-size: 22px;

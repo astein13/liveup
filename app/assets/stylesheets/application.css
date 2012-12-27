@@ -28,7 +28,7 @@
 }
 
 #nav li{
-    float: right;
+    float: left;
     color: white;
     margin-left: 32px;
     margin-right: 28px;
@@ -40,7 +40,7 @@
 }
 
 #nav a{
-    float: right;
+    float: left;
     color: white;
     margin-left: 32px;
     margin-right: 28px;

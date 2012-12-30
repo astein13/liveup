@@ -13,7 +13,7 @@ LiveUp::Application.routes.draw do
   match 'home' => 'pages#home'
   match 'about' => 'pages#about'
   match 'partners'=>'pages#partners'
-  match 'participants'=>'parges#participants'
+  match 'participants'=>'pages#participants'
   match 'programs' => 'pages#programs'
   match 'mentors' => 'pages#mentors'
   match 'donate' => 'pages#donate'

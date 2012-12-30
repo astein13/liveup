@@ -10,6 +10,16 @@ LiveUp::Application.routes.draw do
   get "pages/mentors"
   get "pages/donate"
 
+  match 'home' => 'pages#home'
+  match 'about' => 'pages#about'
+  match 'partners'=>'pages#partners'
+  match 'participants'=>'parges#participants'
+  match 'programs' => 'pages#programs'
+  match 'mentors' => 'pages#mentors'
+  match 'donate' => 'pages#donate'
+  match 'mentor_app'=>'pages#mentor_app'
+  match 'participant_app'=>'pages#participant_app'
+  match 'scholarship_app'=>'pages#scholarship_app'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

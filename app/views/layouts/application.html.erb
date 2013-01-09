@@ -8,16 +8,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <ul id="nav">
-   <a href="home.html"> <div id="name"><%= image_tag('liveuplogo.gif', :size => "160x60") %></div></a>
-   <a href="about.html"> <li>About Us</li></a>
-   <a href="donate.html"><li>Donate</li></a>
-   <a href="programs.html"><li>Programs</li></a>
-   <a href="mentors.html"><li>Mentors</li></a>
-   <a href="participants.html"><li>Participants</li></a>
-   <a href="partners"><li>Partners</li></a>
 
-  </ul>
+  <div id="nav">
+     <a href="home.html"> <div id="name"><%= image_tag('liveuplogo.gif', :size => "160x60") %></div></a>
+     <a href="about.html">About Us</a>
+     <a href="donate.html">Donate</a>
+     <a href="programs.html">Programs</li></a>
+     <a href="mentors.html">Mentors</a>
+     <a href="participants.html">Participants</a>
+     <a href="partners">Partners</a>
+  </div>
+  
 <%= yield %>
 </body>
 </html>
